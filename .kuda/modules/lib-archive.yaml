@@ -1,0 +1,21 @@
+name: lib-archive
+path: src/lib.rs
+purpose: lib-archive
+api:
+- name: ARCHIVE_HNL
+  kind: const
+  file: src/lib.rs
+  line: 3
+  module: lib-archive
+deps: []
+notes: ''
+verify:
+- src/lib.rs
+provenance:
+  files:
+  - src/lib.rs
+  hashes:
+  - abe51b94e1dde2f81d1e20b0207633672804bcc2
+  commit_sha: 71dc7baa3f671244d4f8e636ae1b8d93646e7875
+  generated_at: '1792281141'
+  generator: kuda-template/0.1.0

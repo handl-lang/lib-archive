@@ -1,0 +1,19 @@
+name: lib-archive
+root: /home/luis/GitHub/handl-lang/lib-archive
+purpose: ''
+modules:
+- handl-lib-archive
+- lib-archive
+commands:
+- cargo check
+- cargo test --workspace
+provenance:
+  files:
+  - Cargo.toml
+  - src/lib.rs
+  hashes:
+  - fbae1f583857c17f5cd8888e5e55c3b8bf2e267b
+  - abe51b94e1dde2f81d1e20b0207633672804bcc2
+  commit_sha: 71dc7baa3f671244d4f8e636ae1b8d93646e7875
+  generated_at: '1792281141'
+  generator: kuda/0.1.0
