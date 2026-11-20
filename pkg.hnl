@@ -1,1 +1,8 @@
-{ modules: ["archive"] }
+{
+  modules: ["archive"],
+  name: "archive",
+  description: "Archive package — Handl stdlib port (pure handl).",
+  license: "MIT",
+  keywords: ["archive", "stdlib", "handl"],
+  homepage: "https://github.com/handl-lang/lib-archive",
+}

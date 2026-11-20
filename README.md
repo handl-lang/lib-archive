@@ -2,7 +2,19 @@
 
 `archive` — Handl stdlib port (pure handl).
 
-Part of the stdlib → `lib-*` split (ADR-0128); moved from `stdlib/handl-packages/archive/`.
+## Layout
+
+```text
+src/index.hnl            the library (pure handl)
+pkg.hnl                  package manifest
+scripts/hnl-gate.sh      the gate
+```
+
+## Gate
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
 
 ## License
 
